@@ -1,0 +1,338 @@
+*{
+    margin: 0%;
+    padding:0%;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color:#00ccff;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+.navbar{
+    background-color:#156ca6;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+.logo{
+    margin-right: 5%;
+}
+.logoimg{
+    display: flex;
+    margin-left: 30%;
+    padding: 8%;
+    width: 100%;
+    height: 100%;
+}
+.navbar li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar li a:hover{
+    background-color: #000000;
+}
+.navbar li a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+@media (max-width: 750px) {
+    .navdiv {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .logo {
+      margin-bottom: 10px;
+    }
+    .navdiv ul {
+        text-align: center;
+        line-break:auto;
+        display: block;
+        width: auto;
+      }
+}
+
+@media(max-width:750px){
+    .Content01 img{
+        display: none;
+        line-break: strict;
+    }
+    .Content01 p{
+        margin-left: 25%;
+    }
+
+    .Content02 img{
+        display: none;
+        line-break: strict;
+    }
+    .Content02 p{
+        margin-left: 25%;
+    }
+
+    .Content03 img{
+        display: none;
+        line-break: strict;
+    }
+    .Content03 p{
+        margin-left: 25%;
+    }
+
+    .Content04 img{
+        display: none;
+        line-break: strict;
+    }
+    .Content04 p{
+        margin-left: 25%;
+    }
+
+    .Content05 img{
+        display: none;
+        line-break: strict;
+    }
+    .Content05 p{
+        margin-left: 25%;
+    }
+}
+
+
+
+
+
+.desc{
+    text-align: center;
+    background-color: #151763;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 3%;
+}
+.desc p{
+    
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.Content1{
+    background-color: #151763;
+    border-radius: 4%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.Content1 h1{
+    text-align: center;
+}
+.Content1 p{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.Content01{
+    display:flex;
+    justify-content: space-between;
+    margin-right: 15%;
+    padding-bottom: 3%;
+}
+.Content01 img{
+    border-radius: 3%;
+}
+.Content2{
+    background-color: #151763;
+    border-radius: 4%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.Content2 h1{
+    text-align: center;
+}
+.Content2 p{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.Content02{
+    display:flex;
+    justify-content: space-between;
+    margin-right: 15%;
+    padding-bottom: 3%;
+}
+.Content02 img{
+    border-radius: 3%;
+}
+.Content3{
+    background-color: #151763;
+    border-radius: 4%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.Content3 h1{
+    text-align: center;
+}
+.Content3 p{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.Content03{
+    display:flex;
+    justify-content: space-between;
+    margin-right: 15%;
+    padding-bottom: 3%;
+}
+.Content03 img{
+    border-radius: 3%;
+}
+.Content4{
+    background-color: #151763;
+    border-radius: 4%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.Content4 h1{
+    text-align: center;
+}
+.Content4 p{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.Content04{
+    display:flex;
+    justify-content: space-between;
+    margin-right: 15%;
+    padding-bottom: 3%;
+}
+.Content04 img{
+    border-radius: 3%;
+}
+.Content5{
+    background-color: #151763;
+    border-radius: 4%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.Content5 h1{
+    text-align: center;
+}
+.Content5 p{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.Content05{
+    display:flex;
+    justify-content: space-between;
+    margin-right: 15%;
+    padding-bottom: 3%;
+}
+.Content05 img{
+    border-radius: 3%;
+}
+@media(max-width:800px){
+    .Content01 img{
+        display: none;
+        line-break: strict;
+    }
+    .Content01 p{
+        font-weight: bold;
+        color: #fff;
+        margin: 10%;
+    }
+    .Content01{
+        background-image: url(./threatsimg/mediabycatch.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 2%;
+    }
+
+    .Content02 img{
+        display: none;
+        line-break: strict;
+    }
+    .Content02 p{
+        font-weight: bold;
+        color: #fff;
+        margin: 10%;
+    }
+    .Content02{
+        background-image: url(./threatsimg/mediacoastal.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 2%;
+    }
+
+    .Content03 img{
+        display: none;
+        line-break: strict;
+    }
+    .Content03 p{
+        font-weight: bold;
+        color: #fff;
+        margin: 10%;
+    }
+    .Content03{
+        background-image: url(./threatsimg/mediapollution.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 2%;
+    }
+
+    .Content04 img{
+        display: none;
+        line-break: strict;
+    }
+    .Content04 p{
+        font-weight: bold;
+        color: #fff;
+        margin: 10%;
+    }
+    .Content04{
+        background-image: url(./threatsimg/mediadirect.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 2%;
+    }
+
+    .Content05 img{
+        display: none;
+        line-break: strict;
+    }
+    .Content05 p{
+        font-weight: bold;
+        color: #fff;
+        margin: 10%;
+    }
+    .Content05{
+        background-image: url(./threatsimg/mediaclimate.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 2%;
+    }
+}
+footer{
+    background-color:#156ca6;
+    color: #fff;
+}
+footer p{
+    text-align: right;
+    color:#fff;
+    padding: 3%;
+}
+footer li{
+    padding: 1%;
+    text-align: left;
+}
+footer li a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+footer li a:hover{
+    background-color: #000000;
+}

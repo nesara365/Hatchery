@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="details.css">
+    <link rel="stylesheet" href="detailsTel.css">
+    <link rel="stylesheet" href="international-telephone-input.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">  <!-- This nav bar is basically a header -->
+        <div class="navdiv">
+          <div class="logo"><a href="index.html"><img class="logoimg" alt="logo" src="./homepageimg/logo.jpg"></a></div>
+        </div><h1 class="head">Buy Tickets</h1>
+        <br><br>
+      </nav>
+      <br><br>
+    <div class="flex-container">
+        
+        <div class="details">
+            <br>
+            <h1><i>Enter your Details</i></h1>
+            <br>
+            <form id="frm">
+                <label> Fullname :</label>
+                <input type="text" id="fn" required>
+                <p id="fullnameVal"></p>
+                <br><br>
+
+        
+                <label> Mobile Number :</label>
+                <div class="iti">
+                <input type="tel" name="phone" id="phone" required>
+                <p id="phoneVal"></p>
+                </div><br><br>
+                
+                <label> Gender :</label>
+                <select id="gender" required> 
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+                <p id="gender"></p><br>
+
+                <label> Email :</label>
+                <input type="email" id="email" required><br><br>
+                <p id="emailVal"></p>
+
+          
+                <label> Confirm Email :</label>
+                <input type="email" id="conEmail" required><br><br>
+                <p id="conEmailVal"></p>
+
+
+                <input class="submit" type="submit" value="Submit">
+                <br><br>
+                <button id="purchase-button"  class="cwp"><a href="payment.html">Continue with Purchase</a></button>
+                <br><br>
+            </form>
+        </div>
+
+        <div class="sum">
+            <div class="summaryTable">
+                <br>
+                <div class="sum2">
+                <h2>Summary</h2><br>
+                <hr>
+                <table>
+                    <tr>
+                        <td><p><br></p></td>
+                    </tr>
+                    <tr>
+                        <td><br><p id="sumfullname"></p></td>
+                    </tr>
+                    <tr>
+                        <td><p id="sumMobile"></p></td>
+                    </tr>
+                    <tr>
+                        <td><p id="sumGender"></p></td>
+                    </tr>
+                    <tr>
+                        <td><p id="sumEmail"></p></td>
+                    </tr>
+                    <tr>
+                        <td><p id="sumConEmail"></p><br></td>
+                    </tr>
+                    <tr>
+                        <td><p><br><b>Ticket Details</b><br></p></td>
+                    </tr>
+
+                    <tr>
+                        <td><br><p id="sumDate"></p></td>
+                    </tr>
+                    <tr>
+                        <td><p id="sumTime"></p></td>
+                    </tr>
+                    <tr>
+                        <td><p id="sumDuration"></p></td>
+                    </tr>
+                    <tr>
+                        <td><p id="sumSla"></p></td>
+                    </tr>
+                    <tr>
+                        <td><p id="sumSlc"></p></td>
+                    </tr>
+                    <tr>
+                        <td><p id="sumFa"></p></td>
+                    </tr>
+                    <tr>
+                        <td><p id="sumFc"></p></td>
+                    </tr>
+                    <tr>
+                        <td><p id="sumInf"></p></td>
+                    </tr>
+                    <tr>
+                        <td><p id="sumTotal"></p></td>
+                    </tr>
+                </table>
+            </div>
+                <br><br>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="details.js"></script>
+    <script src="detailVal.js"></script>
+    <script src="international-telephone-input.js"></script>
+</body>
+</html>

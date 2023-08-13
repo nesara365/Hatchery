@@ -1,0 +1,252 @@
+*{
+    margin: 0%;
+    padding:0%;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    
+    background-image: url(./bookingimg/bkg-img.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background: rgb(21, 82, 93);
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.head{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    
+}
+.logo{
+    margin-right: 5%;
+}
+.logoimg{
+    display: flex;
+    margin-left: 30%;
+    padding: 8%;
+    width: 100%;
+    height: 100%;
+}
+.navbar li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar li a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+@media (max-width: 750px) {
+    .navdiv {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .logo {
+      margin-bottom: 10px;
+    }
+    .navdiv ul {
+        text-align: center;
+        line-break:auto;
+        display: block;
+        width: auto;
+      }
+      .head{
+        text-align: center;
+        font-size: 20px;
+        color: white;
+    }
+}
+/*Whole*/
+
+.whole{
+    background-color: rgb(42, 111, 141);
+    border-radius: 4%;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    border: 5px solid black;
+}
+.whole label{
+    color: #fff;
+}
+.dateSection{
+    background-color: rgb(26, 69, 111);
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 5%;
+}
+.guestSection{
+    background-color: rgb(26, 69, 111);
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 5%;
+}
+.durationSection{
+    background-color: rgb(26, 69, 111);
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 5%;
+}
+.summaryTable{
+    background-color: rgb(42, 111, 141);
+    border-radius: 4%;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    border: 5px solid black;
+}
+.summaryTable table{
+    background-color: rgb(26, 69, 111);
+    border-radius: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+.button{
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #757f99;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 10%
+}
+.btn{
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+@media (max-width: 750px){
+.whole{
+    background-color: rgb(42, 111, 141);
+    border-radius: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    border: 5px solid black;
+}
+.dateSection{
+    background-color: rgb(26, 69, 111);
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 5%;
+}
+.guestSection{
+    background-color: rgb(26, 69, 111);
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 5%;
+}
+.durationSection{
+    background-color: rgb(26, 69, 111);
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 5%;
+}
+.summaryTable{
+    background-color: rgb(26, 69, 111);
+    border-radius: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+}
+
+
+
+
+/*Charges*/
+.ticketChargesTable{
+    align-content: center;
+    color: #fff;
+}
+
+.ticketChargesTable td{
+    padding: 5%;
+    text-align: center;
+}
+
+.ticketChargesTable th{
+    padding: 1%;
+}
+.ticketChargesTable table, th, td {
+    border: 3px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+  }
+.ticketChargesTable table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*Summary*/
+
+.summaryTable{
+    align-content: center;
+    color: #fff;
+}
+
+.summaryTable td{
+    padding: 5%;
+    text-align: center;
+}
+
+.summaryTable th{
+    padding: 1%;
+}
+.summaryTable table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+  }
+.summaryTable table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+h1{
+    color: #fff;
+}
+
+h2{
+    color: #fff;
+    text-align: center;
+}
+
+
+footer{
+    background-color: #2d4582;
+    color: #fff;
+}
+footer p{
+    text-align: right;
+    color:#fff;
+    padding: 3%;
+}
+footer li{
+    padding: 1%;
+    text-align: left;
+}
+footer li a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+footer,.navbar a:hover{
+    background-color: #000000;
+}

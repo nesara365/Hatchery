@@ -1,0 +1,151 @@
+*{
+    margin: 0%;
+    padding:0%;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color: #1e9faa;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background: rgb(21, 82, 93);
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+.logo{
+    margin-right: 5%;
+}
+.logoimg{
+    display: flex;
+    margin-left: 30%;
+    padding: 8%;
+    width: 100%;
+    height: 100%;
+}
+.navbar li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar li a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+@media (max-width: 750px) {
+    .navdiv {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .logo {
+      margin-bottom: 10px;
+    }
+    .navdiv ul {
+        text-align: center;
+        line-break:auto;
+        display: block;
+        width: auto;
+      }
+}
+
+
+.hikkaduwa{
+    background-color: white;
+    border-radius: 4%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.hikkaduwa h1{
+    text-align: center;
+}
+.hikkaduwa p{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.hikkaduwa1{
+    display:flex;
+    justify-content: space-between;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-bottom: 3%;
+}
+.hikkaduwa1 img{
+    margin-top: 10%;
+    border-radius: 3%;
+}
+.iframe{
+    width: 70%;
+    height: auto;
+}
+.loc{
+    text-align: center;
+    align-items: center;
+}
+
+@media(max-width:1200px){
+    .hikkaduwa1 img{
+        display: none;
+        line-break: strict;
+    }
+    .hikkaduwa1 img{
+        display: none;
+        line-break: strict;
+    }
+    .hikkaduwa1 p{
+        font-weight: bold;
+        color: #fff;
+        margin: 10%;
+    }
+    .hikkaduwa1{
+        background-image: url(./hikkaduwaimg/mediahatchery.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 2%;
+    }
+}
+.btn{
+    flex: auto;
+    flex-wrap: wrap;
+}
+.bn{
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1e3c88;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 10%
+    
+}
+
+footer{
+    background-color: rgb(21, 82, 93);
+    color: #fff;
+}
+footer p{
+    text-align: right;
+    color:#fff;
+    padding: 3%;
+}
+footer li{
+    padding: 1%;
+    text-align: left;
+}
+footer li a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+footer,.navbar a:hover{
+    background-color: #000000;
+}

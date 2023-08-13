@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turtle Hatchery Sri-lanka</title>
+    <link rel="stylesheet" href="booking.css">
+    <script src="booking.js" defer></script>
+</head>
+
+<body>
+    <nav class="navbar">  <!-- This nav bar is basically a header -->
+        <div class="navdiv">
+          <div class="logo"><a href="index.html"><img class="logoimg" alt="logo" src="./homepageimg/logo.jpg"></a></div>
+        </div><h1 class="head">Buy Tickets</h1>
+        <br><br>
+      </nav>
+<br><br>
+<div class="whole">
+    <br><br>
+    <div class="dateSection">
+        <br>
+        <label>
+            <h2>When are you coming?</h2>
+        </label>
+        <br>
+        <input type="date" id="date">
+        <br><br>
+    </div>
+
+    <br><br>
+    <div class="guestSection">
+        <h2>Guests</h2>
+        <br>
+        <div class="ticket-category">
+            <label>SL Adult :</label>
+            <input type="number" id="sla" min="0" value="0" required>
+        </div><br>
+        <div class="ticket-category">
+            <label>SL Child :</label>
+            <input type="number" id="slc" min="0" value="0" required>
+        </div><br>
+        <div class="ticket-category">
+            <label>Foreigner Adult :</label>
+            <input type="number" id="fa" min="0" value="0" required>
+        </div><br>
+        <div class="ticket-category">
+            <label>Foreigner Child :</label>
+            <input type="number" id="fc" min="0" value="0" required>
+        </div><br>
+        <div class="ticket-category">
+            <label>Infants :</label>
+            <input type="number" id="inf" min="0" value="0" required>
+        </div><br>
+    </div>
+
+    <br><br>
+
+    <div class="durationSection">
+        <br>
+        <h2>Choose a Time Slot:</h2>
+        <br>
+        <label>Select Time Slot:</label>
+        <select id="time-slot">
+            <option value="07:00-08:00">07:00 am to 08:00 am</option>
+            <option value="08:00-09:00">08:00 am to 09:00 am</option>
+            <option value="09:00-10:00">09:00 am to 10:00 am</option>
+            <option value="10:00-11:00">10:00 am to 11:00 am</option>
+            <option value="11:00-12:00">11:00 am to 12:00 pm</option>
+            <option value="12:00-13:00">12:00 pm to 01:00 pm</option>
+            <option value="13:00-14:00">01:00 pm to 02:00 pm</option>
+            <option value="14:00-15:00">02:00 pm to 03:00 pm</option>
+            <option value="15:00-16:00">03:00 pm to 04:00 pm</option>
+            <option value="16:00-17:00">04:00 pm to 05:00 pm</option>
+            <option value="17:00-18:00">05:00 pm to 06:00 pm</option>
+        </select>
+        <br><br>
+    </div>
+    <br>
+</div>
+    <br><br>
+
+    <div class="ticketChargesTable">
+        <table>
+            <tr>
+                <th>Ticket Category</th>
+                <th>Charge per Normal hour</th>
+                <th>Charge per Peak hour</th>
+            </tr>
+            <tr>
+                <td>SL Adult</td>
+                <td>$4</td>
+                <td>$6</td>
+            </tr>
+            <tr>
+                <td>SL Child</td>
+                <td>$2</td>
+                <td>$3</td>
+            </tr>
+            <tr>
+                <td>Foreigner Adult</td>
+                <td>$10</td>
+                <td>$13</td>
+            </tr>
+            <tr>
+                <td>Foreigner Child</td>
+                <td>$5</td>
+                <td>$8</td>
+            </tr>
+            <tr>
+                <td>Infants (under 4 years)</td>
+                <td colspan="2">Free</td>
+            </tr>
+        </table>
+    </div>
+
+    <br><br>
+
+    <div class="summaryTable">
+        <br>
+        <h2>Summary</h2>
+        <br><br>
+
+        
+        <table>
+            
+            <tr>
+                <td><p id="sumDate"></p></td>
+            </tr>
+            <tr>
+                <td><p id="sumTime"></p></td>
+            </tr>
+            <tr>
+                <td><p id="sumDuration"></p></td>
+            </tr>
+            <tr>
+                <td><p id="sumSla"></p></td>
+            </tr>
+            <tr>
+                <td><p id="sumSlc"></p></td>
+            </tr>
+            <tr>
+                <td><p id="sumFa"></p></td>
+            </tr>
+            <tr>
+                <td><p id="sumFc"></p></td>
+            </tr>
+            <tr>
+                <td><p id="sumInf"></p></td>
+            </tr>
+            <tr>
+                <td><p id="sumTotal"></p></td>
+            </tr>
+        </table>
+
+        <br><br>
+
+        <div class="btn">
+        <button id="purchase-button" class="button" disabled>
+            <a href="details.html">Continue with Purchase</a>
+        </button>
+        </div>
+
+        <br><br>
+        
+        
+    </div>
+
+
+</body>
+</html>
